@@ -5,6 +5,7 @@ java -jar %KVHOME%\lib\kvstore.jar makebootconfig ^
 -host RCGREENE-LAP ^
 -harange 5010,5020 ^
 -num_cpus 0 ^
+-capacity 3 ^
 -memory_mb 100 ^
 -store-security none
 
@@ -15,6 +16,7 @@ java -jar %KVHOME%\lib\kvstore.jar makebootconfig ^
 -host RCGREENE-LAP ^
 -harange 6010,6020 ^
 -num_cpus 0 ^
+-capacity 3 ^
 -memory_mb 100 ^
 -store-security none
 
@@ -25,6 +27,7 @@ java -jar %KVHOME%\lib\kvstore.jar makebootconfig ^
 -host RCGREENE-LAP ^
 -harange 7010,7020 ^
 -num_cpus 0 ^
+-capacity 3 ^
 -memory_mb 100 ^
 -store-security none
 
